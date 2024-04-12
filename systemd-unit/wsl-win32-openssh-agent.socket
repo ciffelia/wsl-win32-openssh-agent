@@ -6,4 +6,4 @@ ListenStream = %h/.ssh/ssh-agent-win32-openssh.sock
 Accept = yes
 
 [Install]
-WantedBy=sockets.target
+WantedBy = sockets.target
