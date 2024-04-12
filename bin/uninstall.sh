@@ -13,4 +13,4 @@ systemctl --user daemon-reload
 set +x
 echo
 echo 'Uninstallation complete. Please remove the following line from your ~/.bashrc or ~/.zshrc:'
-echo 'export SSH_AUTH_SOCK="$HOME/.ssh/ssh-agent-win32-openssh.socket"'
+echo 'export SSH_AUTH_SOCK="$HOME/.ssh/ssh-agent-win32-openssh.sock"'

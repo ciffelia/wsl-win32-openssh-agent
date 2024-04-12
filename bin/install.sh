@@ -13,4 +13,4 @@ systemctl --user enable --now wsl-win32-openssh-agent.socket
 set +x
 echo
 echo 'Installation complete. Please add the following line to your ~/.bashrc or ~/.zshrc:'
-echo 'export SSH_AUTH_SOCK="$HOME/.ssh/ssh-agent-win32-openssh.socket"'
+echo 'export SSH_AUTH_SOCK="$HOME/.ssh/ssh-agent-win32-openssh.sock"'
