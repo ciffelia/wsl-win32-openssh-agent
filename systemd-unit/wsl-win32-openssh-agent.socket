@@ -1,0 +1,9 @@
+[Unit]
+Description = wsl-win32-openssh-agent socket
+
+[Socket]
+ListenStream = %h/.ssh/ssh-agent-win32-openssh.sock
+Accept = yes
+
+[Install]
+WantedBy=sockets.target

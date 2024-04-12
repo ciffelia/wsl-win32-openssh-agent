@@ -1,0 +1,9 @@
+[Unit]
+Description = wsl-win32-openssh-agent service
+
+[Service]
+ExecStart = 'npiperelay.exe' -ei -s -v //./pipe/openssh-ssh-agent
+Type = exec
+StandardInput = socket
+StandardOutput = socket
+StandardError = journal
